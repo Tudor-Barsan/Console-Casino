@@ -6,7 +6,7 @@ import datetime
 def casino_start():
     space_lines()
     print("Welcome to Tudor's Casino!")
-    response = input("Are you ready to get crazy rich? (yes or no): ")
+    response = input("Are you ready to get crazy rich? (yes or no):  ")
     space_lines()
 
     if response.lower() == "yes":
